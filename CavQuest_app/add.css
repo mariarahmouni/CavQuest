@@ -1,0 +1,255 @@
+.custom-login-button {
+  display: inline-block;
+  padding: 10px 20px;
+  max-width: 75px;
+  border-radius: 50px;
+  background-color: #007BFF;
+  color: #FFF;
+  text-decoration: none;
+  box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7393B3;
+  font-size: 20px
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body {
+	font-family:"sans-serif";
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	 background-color:  #dce4eb;
+}
+
+.container {
+	max-width:600px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+.App_name {
+  font-family: 'Allura';
+  font-size: 50px;
+}
+
+a.custom-login-button:hover {
+  background-color: #86c5da;
+  color: #FFFFFF;
+}
+
+.scavenger_image {
+  float: left;
+  width: calc(50% - 100px);
+  /* 50% - 100px to reduce by 100px */
+  height: calc(200px - 400px);
+  /* Calculate the reduced height while maintaining the same aspect ratio */
+}
+
+.description {
+  height: calc(200px - 400px);
+  /* Calculate the reduced height while maintaining the same aspect ratio */
+  width: calc(50% - 100px);
+  /* 50% - 100px to reduce by 100px */
+  float: left;
+  font-size: 25px;
+}
+
+.login_button {
+  background-color: green;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.user_profile_desc {
+  font-size: 50px;
+}
+.full-page-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+h1{
+color: #DA8718;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #7393B3;
+font-size: 20px
+}
+.uniform-button {
+	width: 100px; /* or any specific width */
+	height: 35px; /* or any specific height */
+}
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-family: sans-serif;
+font-weight: 400;
+}
+
+li a:hover {
+background-color: #111;
+}
+.content-container {
+	 border-radius: 25px;
+	margin-top: -90px; /* Adjust value as needed */
+	background-color: white;
+	margin: 300px;
+	margin-top: 20px;
+	padding: 50px;
+	 box-shadow: 10px 10px 5px grey;
+}
+.bg-img {
+/* The image used */
+background-image: url("https://b.kisscc0.com/20180815/btq/kisscc0-treasure-map-road-map-world-map-trip-5b745a95b94184.1978381015343520217588.png");
+
+/* Control the height of the image */
+
+min-height: 200px;
+
+
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: 900px;
+background-width: 700px;
+position: relative;
+}
+	 body{
+		background-color:  #dce4eb;
+	  }
+	  h1 {
+	  text-align: center;
+	  font-size: 30px;
+
+	  }
+	 container {
+		display: flex;
+		justify-content: right;
+		align-items: right;
+
+	 }
+	 form {
+		display: flex;
+		flex-direction: column; /* Stack items vertically */
+		align-items: center; /* Center items horizontally */
+		justify-content: center; /* Center items vertically */
+		font-size: 15px;
+	 }
+	 .button-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+	.add_desc{
+	font-size:15px;
+	text-align: center;
+	color: grey;
+	}
+	.GFG {
+		background-color: white;
+		border: 2px solid black;
+		color: green;
+		text-align: center;
+		display: inline-block;
+		font-size: 15px;
+		margin: 10px 30px;
+		cursor: pointer;
+	}
+.GFG:hover{
+background-color: #4CAF50;
+color: white;
+	  }
+	  .menu {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #7393B3;
+		font-size: 20px;
+		display: flex;
+		justify-content: space-between;
+		list-style-type: none;
+		padding: 0;
+	  }
+
+	  .menu li:not(:last-child) {
+		  margin-right: 10px;
+	  }
+
+	  .menu li:last-child {
+		  margin-left: auto;
+	  }
+
+	  .menu li {
+		float: left;
+	  }
+
+	  .menu li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	  }
+
+	  .menu li a:hover {
+		background-color: #111;
+	  }
+.submission-form {
+  color: red;
+
+}
+
+.submission-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.submission-form input,
+.submission-form textarea {
+  height: 400px;
+  /* Calculate the reduced height while maintaining the same aspect ratio */
+  width: 200px;
+  /* 100% - 100px to reduce by 100px */
+  padding: 80px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
